@@ -318,7 +318,7 @@ export default function Example() {
               </Popover.Group>
               <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                 <a
-                  href="#"
+                  href="SignIn"
                   className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
                 >
                   Sign in
@@ -415,12 +415,12 @@ export default function Example() {
                       href="#"
                       className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                     >
-                      Sign up
+                      Sign in
                     </a>
                     <p className="mt-6 text-center text-base font-medium text-gray-500">
                       Existing customer?{" "}
                       <a
-                        href="#"
+                        href="/SignIn"
                         className="text-indigo-600 hover:text-indigo-500"
                       >
                         Sign in
