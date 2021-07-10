@@ -21,36 +21,6 @@ function Footer() {
           >
             Release Notes
           </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Upgrade Guide
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Using with Preprocessors
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Optimizing for Production
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Browser Support
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            IntelliSense
-          </a>
         </div>
 
         <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
@@ -81,24 +51,6 @@ function Footer() {
             class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
             Distrubitors
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Adding Base Styles
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Extracting Components
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Adding New Utilities
           </a>
         </div>
 

@@ -1,10 +1,12 @@
 import React from "react";
-import Link from "react-router-dom";
+import { Link } from "react-router-dom";
+import Example from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 const HomePage = () => {
   return (
     <div>
-      <div class="bg-white py-52  >">
+      <div class="bg-white py-24  >">
         <div class="max-w-5xl mx-auto">
           <div class="flex flex-wrap items-center px-6 sm:px-0">
             <div class="w-full sm:w-1/2 order-last sm:order-first">
@@ -24,6 +26,21 @@ const HomePage = () => {
               />
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="flex flex-row md:flex-row my-8 justify-center pt-12 pb-12">
+        <div class="flex text-center mr-8 ">
+          <Link to="/Consumer">
+            <button class="rounded-full bg-blue-600 w-64 h-24 text-white font-bold font-serif text-xl transition duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110">
+              Supplier
+            </button>
+          </Link>
+        </div>
+        <div class="flex text-center w-64 h-24 ml-72">
+          <button class="rounded-full bg-blue-600 w-64 h-24 text-white font-bold font-serif text-xl transition duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110">
+            Pharmacies
+          </button>
         </div>
       </div>
     </div>
